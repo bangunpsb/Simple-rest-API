@@ -6,7 +6,7 @@
 ### Created :
 *OOP PDO PHP, MySQL
 
-#etc :
+# etc :
 install app postman, for read data get app postman copy url http://localhost/crud-api-pdo/api/product/read.php then send, for read one data get by id copy url http://localhost/crud-api-pdo/api/product/read_one.php?id=$id then send (for  $id is read one data), for search copy url http://localhost/crud-api-pdo/api/product/search.php?s=$free then send (for $free is search data), for delete data http://localhost/crud-api-pdo/api/product/delete.php get body at app postman then select raw and select json type data then {"id":"$getid"} (for $getid is delete data by id), for create data go to params {"id": "$create","name": "$create","price": "$create","description": "$create","category_id": "$create"} (for $create is value create data ), for update data http://localhost/crud-api-pdo/api/product/update.php get body at app postman then select raw and select json type data then {"id": "$getid","name": "$updatevalue","price": "$updatevalue","description": "$updatevalue","category_id": "$updatevalue"} for($getid is id for update and value is data for at update).
 
 ***
